@@ -1,0 +1,32 @@
+.my-form{
+  max-width: 600px;
+  position: relative;
+  left: 400px;
+  top: 175px;
+  border: solid 1px black;
+  padding: 20px;
+  background-color: green;
+  opacity: 0.9;
+}
+.btn-primary{
+  background-color: red!important;
+  color: yellow!important;
+}
+img{
+  margin-left: 200px;
+  animation-name: urejawalok;
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes urejawalok {
+  0%{
+    margin-left: -950px;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 200px;
+    opacity: 1;
+  }
+}

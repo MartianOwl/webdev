@@ -1,0 +1,53 @@
+body{
+ background-color:#B97A95;
+  }
+.logo{
+  position: relative;
+  left: 1150px;
+  bottom: 60px;
+
+}
+.logo2{
+position: relative;
+height:200px;
+width:300px;
+bottom:270px
+}
+
+.address{
+  border-top: dotted 2px #301B3F;
+  border-bottom: dotted 2px #301B3F;
+  position: relative;
+  bottom:240px;
+  font-family: 'Satisfy', cursive;;
+}
+.glam-purple{  font-size: 70px;
+  color:#8F4068;font-style: italic;
+  text-decoration: overline;
+  text-decoration: underline;
+font-family: 'MonteCarlo', cursive;}
+
+ul{
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+}
+li{
+  padding: 8px;
+}
+li:hover{
+  background-color: gray;
+}
+.navbar{
+  background-color: white;
+}
+a{
+  text-decoration: none;
+}
+.card{
+  background-color: white;
+}
+.card img{
+  width: 200px;
+  height: auto;
+}
